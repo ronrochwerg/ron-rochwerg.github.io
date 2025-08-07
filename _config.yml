@@ -3,7 +3,8 @@ description: "PhD Student, Computer Science, Queen's University"
 baseurl: ""           # No subdirectory, as this is hosted at your root GitHub Pages site
 url: "https://ron-rochwerg.github.io"
 
-theme: cvless
+# theme: cvless
+remote_theme: piazzai/cvless
 
 # site settings
 taglong: "Academic Portfolio of Ron Rochwerg"
