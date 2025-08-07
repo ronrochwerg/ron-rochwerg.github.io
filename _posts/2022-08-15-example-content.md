@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: Example content
 lead: A long post that showcases style elements.
@@ -171,4 +171,4 @@ Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur e
 
 Want to see something else added? <a href="https://github.com/piazzai/cvless/issues/new">Open an issue.</a>
 
-[^fn-sample]: Handy! Now click the return link to go back.
+[^fn-sample]: Handy! Now click the return link to go back. -->
