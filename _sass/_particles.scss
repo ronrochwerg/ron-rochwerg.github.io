@@ -4,6 +4,13 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--color-particles-background);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; // ensures full viewport height
+  position: relative; // needed for stacking context
 
   .particles-js-canvas-el {
     width: 100%;
@@ -11,12 +18,14 @@
   }
 
   .jumbotron {
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    pointer-events: none;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  pointer-events: none;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
   }
 }
 
