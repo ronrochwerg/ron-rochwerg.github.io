@@ -21,7 +21,17 @@
 }
 
 .fullscreen {
-  min-height: 100vh;
+  /* Better viewport units + a little breathing room */
+  min-height: 100dvh;            /* modern, dynamic viewport */
+  min-height: 100svh;            /* small viewport (Safari) */
+  min-height: 100vh;             /* fallback */
+
+  display: flex;                 /* center content safely */
+  align-items: center;
+  justify-content: center;
+
+  padding-block: 2rem;           /* prevents edge clipping */
+  box-sizing: border-box;
 
   h1,
   h2 {
